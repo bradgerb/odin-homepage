@@ -5,11 +5,45 @@ body {
 .header {
     display: flex;
     justify-content: center;
+    align-items: center;
     padding: 1em;
     min-height: 33vh;
-    background-image: linear-gradient(350deg, white 0%,white 45%, #0891b2 45%, #0891b2 100%);
+    /* background-image: linear-gradient(350deg, white 0%,white 45%, #0891b2 45%, #0891b2 100%); */
 }
 
+.headerColor {
+    position: absolute;
+    min-height: 80vh;
+    width: 100%;
+    background-color: #0891b2;
+    transform: skewY(-7deg) translateY(-300px);
+    z-index: -1;
+}
+
+.header figure {
+    margin: 0;
+}
+
+.header figcaption {
+    font-size: 38px;
+    text-align: center;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, .30);
+    border-radius: 30px;
+    padding: 0 20px;
+    border: 5px solid #19bfe9;
+    background-color: #0891b2;
+    font-style: bold;
+    transform: translateY(-200%);
+    z-index: 2;
+}
+
+.header figure img {
+    height: 80%;
+}
+
+.header .cardContent {
+    text-indent: 0;
+}
 
 .main {
     background-color: white;
@@ -23,9 +57,10 @@ body {
 
 .card {
     border: black solid 1px;
-    max-width: 50%;
+    min-height: 20vh;
+    max-height: fit-content;
+    max-width: 35%;
     padding: 10px;
-    white-space: pre-wrap;
     background-color: white;
 }
 
