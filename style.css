@@ -68,3 +68,8 @@ body {
     font-size: x-large;
     font-weight: bold;
 }
+
+.links {
+    display: flex;
+    justify-content: end;
+}
