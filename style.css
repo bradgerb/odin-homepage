@@ -84,11 +84,13 @@ body {
 .projectCardContainer {
     border: black solid 1px;
     box-shadow: 1px 1px 3px grey;
+    border-radius: 15px;
+    overflow: hidden;
 }
 
 .projectCardScreenshot {
     display: flex;
-    padding: 25px 15px;
+    padding: 35px 0;
     justify-content: center;
     font-size: larger;
     font-weight: bold;
@@ -121,4 +123,16 @@ body {
 .projectCardText {
     padding: 25px 15px;
     border-top: black solid 1px;
+}
+
+.titleLine {
+    display: flex;
+    margin-bottom: 5px;
+    justify-content: space-between;
+}
+
+.title {
+    font-size: large;
+    font-weight: bold;
+    
 }
