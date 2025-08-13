@@ -6,9 +6,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1em;
-    min-height: 33vh;
-    /* background-image: linear-gradient(350deg, white 0%,white 45%, #0891b2 45%, #0891b2 100%); */
 }
 
 .headerColor {
@@ -46,8 +43,8 @@ body {
 }
 
 .main {
+    margin: 0 10%;
     background-color: white;
-    min-height: 33vh;
 }
 
 .footer {
@@ -57,6 +54,7 @@ body {
 
 .card {
     border: black solid 1px;
+    box-shadow: 1px 1px 3px grey;
     min-height: 20vh;
     max-height: fit-content;
     max-width: 35%;
@@ -72,4 +70,55 @@ body {
 .links {
     display: flex;
     justify-content: end;
+}
+
+.screenshots {
+    margin-bottom: 5%;
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 3rem;
+}
+
+.projectCardContainer {
+    border: black solid 1px;
+    box-shadow: 1px 1px 3px grey;
+}
+
+.projectCardScreenshot {
+    display: flex;
+    padding: 25px 15px;
+    justify-content: center;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.one {
+    background-color: red;
+}
+
+.two {
+    background-color: purple;
+}
+
+.three {
+    background-color: green;
+}
+
+.four {
+    background-color: pink;
+}
+
+.five {
+    background-color: orange;
+}
+
+.six {
+    background-color: blue;
+}
+
+.projectCardText {
+    padding: 25px 15px;
+    border-top: black solid 1px;
 }
