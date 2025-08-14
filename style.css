@@ -48,8 +48,8 @@ body {
 }
 
 .footer {
+    display: flex;
     background-color: #0891b2;
-    min-height: 33vh;
 }
 
 .card {
@@ -97,27 +97,27 @@ body {
 }
 
 .one {
-    background-color: red;
+    background-color: #9e1c1c;
 }
 
 .two {
-    background-color: purple;
+    background-color: #7c75ca;
 }
 
 .three {
-    background-color: green;
+    background-color: #5e8f4d;
 }
 
 .four {
-    background-color: pink;
+    background-color: #c363b4;
 }
 
 .five {
-    background-color: orange;
+    background-color: #d88f39;
 }
 
 .six {
-    background-color: blue;
+    background-color: #4ba2d2;
 }
 
 .projectCardText {
@@ -134,5 +134,37 @@ body {
 .title {
     font-size: large;
     font-weight: bold;
-    
+}
+
+h3 {
+    font-size: xx-large;
+}
+
+.footerTextContainer {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding-left: 10%;
+}
+
+.footerImage {
+    display: flex;
+    flex-grow: 3;
+    justify-content: center;
+}
+
+.footerImage img {
+    width: 350px;
+}
+
+.phone {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.email {
+    display: flex;
+    align-items: center;
+    margin-top: 0;
 }
