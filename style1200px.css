@@ -1,6 +1,14 @@
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1200px) and  (min-width: 601px) {
     .screenshots {
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(3, 1fr);
+    }
+
+    .header figcaption {
+        transform: translate(80%, -30rem);
+    }
+
+    .card {
+        margin-top: 200px;
     }
 }
