@@ -1,5 +1,6 @@
 @media screen and (max-width: 1200px) {
-    body {
-        background-color: red;
+    .screenshots {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
     }
 }

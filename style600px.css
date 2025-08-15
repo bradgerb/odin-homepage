@@ -1,5 +1,39 @@
 @media screen and (max-width: 600px) {
-    body {
-        background-color: blue;
+    .headerColor {
+        transform: skewY(-7deg) translateY(-400px);
+    }
+
+    .header {
+        flex-direction: column;
+    }
+
+    .header figure {
+        margin-bottom: -50px;
+    }
+
+    .card {
+        max-width: 80%;
+        margin-bottom: 50px;
+    }
+
+    .screenshots {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        margin-bottom: 100px;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footerTextContainer {
+        padding: 0;
+    }
+
+    .footerLinks {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
     }
 }
